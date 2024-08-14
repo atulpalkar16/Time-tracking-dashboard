@@ -10,7 +10,7 @@ Thanks for checking out this front-end coding challenge.
 
 
 ### Links
-Live Deployed Site: 
+Live Deployed Site: https://atulpalkar16.github.io/Time-tracking-dashboard/
 
 
 ## Colors
