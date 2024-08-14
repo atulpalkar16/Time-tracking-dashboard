@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="styles.css">
+
+  <script defer src="script.js"></script>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+  <div class="wrapper">
+    <!-- container grid -->
+    <div class="container grid">
+      <!-- section-1 -->
+      <section class="section card card-container">
+        <div class="card-top">
+          <figure><img src="images/image-jeremy.png" alt="Jeremy image"></figure>
+          <figcaption class="info">
+            <p class="sub-text">Report for</p>
+            <h1 class="info-heading">Jeremy Robson</h1>
+          </figcaption>
+        </div>
+        <ul class="nav-links card-bottom">
+          <li class="nav-link " data-period="daily"><a href="#">Daily</a></li>
+          <li class="nav-link active" data-period="weekly"><a href="#">Weekly</a></li>
+          <li class="nav-link " data-period="monthly"><a href="#">Monthly</a></li>
+        </ul>
+      </section>
+      
+      <!-- section 2 -->
+       <section class="section card card-work ">
+        <div class="bg bg-work"></div>
+        <!-- details -->
+        <div class="details details-work">
+          <div class="space-between">
+            <div class="details-heading head-text">Work</div>
+            <div class="">...</div>
+          </div>
+          <h2 class="heading"><span class="details-hrs work-hrs"></span> hrs</h2>
+          <p class="sub-text"> <span class="last-period"></span> - <span class="details-last-hrs last-work-hrs"></span> hrs</p>
+        </div>
+       </section> <!--section 2 ends here-->
+
+      <!-- section 3 -->
+       <section class="section card card-play ">
+        <div class="bg bg-play"></div>
+        <!-- details -->
+        <div class="details details-play">
+          <div class="space-between">
+            <div class="details-heading head-text">Play</div>
+            <div class="">...</div>
+          </div>
+          <h2 class="heading"><span class="details-hrs play-hrs"></span> hrs</h2>
+          <p class="sub-text"> <span class="last-period"></span> - <span class="details-last-hrs last-play-hrs"></span> hrs</p>
+        </div>
+       </section> <!--section 3 ends here-->
+
+
+      <!-- section 4 -->
+       <section class="section card card-study ">
+        <div class="bg bg-study"></div>
+        <!-- details -->
+        <div class="details details-study">
+          <div class="space-between">
+            <div class="details-heading head-text">Study</div>
+            <div class="">...</div>
+          </div>
+          <h2 class="heading"><span class="details-hrs study-hrs"></span> hrs</h2>
+          <p class="sub-text"> <span class="last-period"></span> - <span class="details-last-hrs last-study-hrs"></span> hrs</p>
+        </div>
+       </section> <!--section 4 ends here-->
+
+
+      <!-- section 5 -->
+       <section class="section card card-exercise ">
+        <div class="bg bg-exercise"></div>
+        <!-- details -->
+        <div class="details details-exercise">
+          <div class="space-between">
+            <div class="details-heading head-text">Exercise</div>
+            <div class="">...</div>
+          </div>
+          <h2 class="heading"><span class="details-hrs exercise-hrs"></span> hrs</h2>
+          <p class="sub-text"> <span class="last-period"></span> - <span class="details-last-hrs last-exercise-hrs"></span> hrs</p>
+        </div>
+       </section> <!--section 4 ends here-->
+
+      <!-- section 5 -->
+       <section class="section card card-social ">
+        <div class="bg bg-social"></div>
+        <!-- details -->
+        <div class="details details-social">
+          <div class="space-between">
+            <div class="details-heading head-text">social</div>
+            <div class="">...</div>
+          </div>
+          <h2 class="heading"><span class="details-hrs social-hrs"></span> hrs</h2>
+          <p class="sub-text"> <span class="last-period"></span> - <span class="details-last-hrs last-social-hrs"></span> hrs</p>
+        </div>
+       </section> <!--section 4 ends here-->
+
+      <!-- section 5 -->
+       <section class="section card card-selfcare ">
+        <div class="bg bg-selfcare"></div>
+        <!-- details -->
+        <div class="details details-selfcare">
+          <div class="space-between">
+            <div class="details-heading head-text">Self Care</div>
+            <div class="">...</div>
+          </div>
+          <h2 class="heading"><span class="details-hrs selfcare-hrs"></span> hrs</h2>
+          <p class="sub-text"> <span class="last-period"></span> - <span class="details-last-hrs last-selfcare-hrs"></span> hrs</p>
+        </div>
+       </section> <!--section 4 ends here-->
+
+    </div><!--container -->
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/atulpalkar16" target="_blank">Atul Palkar</a>.
+  </div>
+</body>
+</html>
